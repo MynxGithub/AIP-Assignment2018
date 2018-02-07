@@ -1,0 +1,13 @@
+;Solution 1:
+
+(def splice-out '(a b c d e)) ;defines a list "splice-out"
+(concat ;changes vector into a list.
+  (subvec (into [] splice-out) 1 3)) ;Returns a persistent vector of the items in vector fromstart (inclusive) to end (exclusive).
+    
+;Solution 2:
+
+(defn easy-splice-out [lis n m]
+  (drop n (take (+ m 1) lis)))
+    (easy-splice-out '(a b c d e) 1 3)
+    
+;Solution 3:
