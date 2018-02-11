@@ -82,8 +82,6 @@
 
 (splice-out-six '(a b c d e f g h i j k l m o n p q) 4 9 0)
 
-
-
 ; Solution 3 Stage 7
 ; changed the if statement to a cond statement and added the else in as well
 (defn splice-out-seven

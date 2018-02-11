@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AIP1-Assignment2018.iml" filepath="$PROJECT_DIR$/.idea/AIP1-Assignment2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aipassessmentone/aipassessmentone.iml" filepath="$PROJECT_DIR$/aipassessmentone/aipassessmentone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clojuremodule/clojuremodule.iml" filepath="$PROJECT_DIR$/clojuremodule/clojuremodule.iml" />
+    </modules>
+  </component>
+</project>
